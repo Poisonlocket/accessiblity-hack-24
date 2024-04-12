@@ -7,7 +7,7 @@ actor = pyttsx3.init()
 app: FastAPI = FastAPI()
 
 # Property Sets
-words_per_minute: int = 200
+words_per_minute: int = 140
 #actor.setProperty('language', 'german')
 actor.setProperty('rate', words_per_minute)
 actor.setProperty('volume', 5.0)
